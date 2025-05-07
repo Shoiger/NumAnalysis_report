@@ -59,16 +59,16 @@ l_i(x) = \prod_{j=1, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}
 
 ### 插值结果图像
 - **均匀分点插值结果 (n=2)** 与 **切比雪夫节点插值结果 (n=2)**  
-  ![chart_n2](./chart_isssue1/chart_n2.png)
+  ![chart_n2](./chart_issue1/chart_n2.png)
 
 - **均匀分点插值结果 (n=4)** 与 **切比雪夫节点插值结果 (n=4)**  
-  ![chart_n4](./chart_isssue1/chart_n4.png)
+  ![chart_n4](./chart_issue1/chart_n4.png)
 
 - **均匀分点插值结果 (n=8)** 与 **切比雪夫节点插值结果 (n=8)**  
-  ![chart_n8](./chart_isssue1/chart_n8.png)
+  ![chart_n8](./chart_issue1/chart_n8.png)
 
 - **均匀分点插值结果 (n=16)** 与 **切比雪夫节点插值结果 (n=16)**  
-  ![chart_n16](./chart_isssue1/chart_n16.png)
+  ![chart_n16](./chart_issue1/chart_n16.png)
 
 ---
 
@@ -95,4 +95,4 @@ l_i(x) = \prod_{j=1, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}
 ## 附录
 实验代码与运行结果图像存放在同文件夹下：
 - 源代码文件：[issue1.py](./issue1.py)
-- 生成的图片文件夹：[chart_isssue1](./chart_isssue1)
+- 生成的图片文件夹：[chart_issue1](./chart_issue1)
