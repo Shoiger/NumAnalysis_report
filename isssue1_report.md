@@ -15,19 +15,19 @@
 ## 实验内容
 
 ### 原函数定义
-\[
-f(x) = \frac{1}{1 + 25x^2}
-\]
+<div>
+  \[ f(x) = \frac{1}{1 + 25x^2} \]
+</div>
 
 ### 拉格朗日插值函数定义
-\[
-L_n(x) = \sum_{i=1}^{n} f(x_i) l_i(x)
-\]
+<div>
+  \[ L_n(x) = \sum_{i=1}^{n} f(x_i) l_i(x) \]
+</div>
 
 其中：
-\[
-l_i(x) = \prod_{j=1, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}
-\]
+<div>
+  \[ l_i(x) = \prod_{j=1, j\neq i}^{n} \frac{x - x_j}{x_i - x_j} \]
+</div>
 
 ### 实验步骤
 1. 定义原函数 \( f(x) = \frac{1}{1+25x^2} \)。
@@ -96,3 +96,9 @@ l_i(x) = \prod_{j=1, j\neq i}^{n} \frac{x - x_j}{x_i - x_j}
 实验代码与运行结果图像存放在同文件夹下：
 - 源代码文件：[issue1.py](./issue1.py)
 - 生成的图片文件夹：[chart_issue1](./chart_issue1)
+
+---
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
